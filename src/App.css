@@ -182,7 +182,7 @@
   align-items: flex-end;
   margin-left: 200px;
   margin-right: 135px;
-  background-image: url(photo1.webp);
+
   background-size: 1100px;
   background-repeat: no-repeat;
   gap: 10px;
@@ -208,7 +208,7 @@
   display: flex;
   align-items: flex-end;
   position: relative;
-  background-image: url(photo2.webp);
+
   background-size: 1100px;
   background-repeat: no-repeat;
   padding-bottom: 200px;

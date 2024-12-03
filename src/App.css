@@ -1,0 +1,420 @@
+.label {
+  border: 2px solid whitesmoke;
+  border-radius: 8px;
+  height: 50px;
+
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.fic {
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+  width: 100%;
+}
+
+.fa-mobile {
+  margin-top: 7px;
+}
+.vertical-line {
+  width: 3px;
+  height: 40px;
+  background-color: antiquewhite;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.hari-line {
+  width: 70px;
+  height: 3px;
+  background-color: antiquewhite;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.new {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile {
+  align-items: center;
+  position: relative;
+}
+
+.download-text {
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+  padding-top: 20px;
+}
+.download-t {
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+}
+.download-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1001;
+  width: 150px;
+}
+.download-m {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-right: 100px;
+  z-index: 1001;
+  width: 200px;
+  padding: 10px;
+}
+
+.download-menu img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.new:hover .download-menu {
+  display: block;
+}
+.profile:hover .download-m {
+  display: block;
+}
+.new:hover .download-text {
+  color: rgb(159, 32, 137);
+  text-decoration: none;
+  position: relative;
+}
+.profile:hover .download-t {
+  color: rgb(159, 32, 137);
+  text-decoration: none;
+  position: relative;
+}
+
+.new:hover .download-text::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 2px;
+  background-color: rgb(159, 32, 137);
+  bottom: -31px;
+  left: 0;
+  right: 2px;
+}
+.profile:hover .download-t::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 2px;
+  background-color: rgb(159, 32, 137);
+  bottom: -31px;
+  left: 0;
+  right: 2px;
+}
+
+.fa-user-o {
+  padding-left: 60%;
+}
+#over1 {
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 12px;
+  margin-right: 500px;
+  padding-left: 2%;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.new:hover #over1 {
+  top: 65px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.left-column {
+  background-color: #f0f0f0;
+  margin-left: 97px;
+
+  text-size-adjust: 300px;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.right-column {
+  background-color: #f0f0f0;
+  margin-right: 200px;
+  padding-left: 95px;
+}
+.ui {
+  padding-left: 200px;
+  width: 1170px;
+}
+.jks {
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 400px;
+  height: 55px;
+  display: flex;
+}
+.colum {
+  flex: 1;
+}
+.containe {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 200px;
+  margin-right: 135px;
+  background-image: url(photo1.webp);
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  gap: 10px;
+  padding-bottom: 200px;
+}
+.left-colum {
+  width: 500px;
+  display: flex;
+  padding-top: 90px;
+  padding-left: 50px;
+}
+.right-colum {
+  align-items: flex-end;
+  display: flex;
+  padding-right: 120px;
+  gap: 13px;
+}
+.colu {
+  flex: 1;
+}
+
+.contain {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-image: url(photo2.webp);
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  gap: 10px;
+  margin-left: 200px;
+  margin-top: -120px;
+}
+
+.right-colu {
+  margin-left: 100px;
+  padding-top: 100px;
+  gap: 10px;
+}
+
+.liki {
+  margin-right: 300px;
+}
+.bt1 {
+  padding-left: 20px;
+}
+.bt2 {
+  padding-left: 20px;
+}
+.bt3 {
+  padding-left: 20px;
+}
+.ty {
+  padding-bottom: 180px;
+  padding-left: 100px;
+}
+.c {
+  flex: 1;
+}
+.container-fluid {
+  position: fixed;
+  background-color: white;
+  z-index: 9999;
+  top: 0;
+}
+.cv {
+  color: black;
+
+  text-decoration: none;
+}
+.cv:hover {
+  color: #f43397;
+}
+.cvb {
+  color: black;
+
+  text-decoration: none;
+}
+.card1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-left: 10px;
+  width: calc(100% - 240px);
+}
+.ne {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.download-tex {
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.download-men {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1001;
+  width: 150px;
+}
+.download-men img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.ne:hover .download-men {
+  display: block;
+}
+.ne:hover .download-tex {
+  color: rgb(159, 32, 137);
+  text-decoration: none;
+  position: relative;
+}
+
+.ne:hover .download-tex::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 2px;
+  background-color: rgb(159, 32, 137);
+  bottom: -18px;
+  left: 0;
+  right: 2px;
+}
+
+.i5 {
+  width: 73%;
+  height: 500px;
+  box-sizing: border-box;
+  margin-left: 200px;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp");
+}
+
+.corner {
+  width: 450px;
+  height: 250px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 650px;
+}
+
+.i5-11 {
+  margin-top: 10px;
+  margin-left: 30px;
+  color: purple;
+  font-size: 35px;
+}
+
+.i5-12 {
+  margin-left: 105px;
+  color: purple;
+  font-size: 35px;
+}
+
+.i5-im {
+  width: 380px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.i5-im-1 {
+  width: 185px;
+  height: 50px;
+}
+
+.im-1,
+.im-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.i6 {
+  width: 73%;
+  height: 290px;
+  box-sizing: border-box;
+  margin-left: 200px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.len {
+  width: 300px;
+  height: 2px;
+  background-color: antiquewhite;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+.len1 {
+  width: 300px;
+  height: 2px;
+  background-color: antiquewhite;
+
+  margin-top: 30px;
+}
+.background-video {
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  margin-left: 100px;
+}
+.fa fa-twitter {
+  color: white;
+}
+.fa fa-download {
+  color: white;
+}
+.zoom:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.jdh {
+  width: 100px;
+  height: 350px;
+  background-color: white;
+}

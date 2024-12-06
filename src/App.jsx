@@ -11,7 +11,7 @@ import Body5 from './Body5';
 import Body6 from './Body6';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import New from './New';
-import New2 from './new2';
+import New2 from './New2';
 import New3 from './New3';
 import EnterPhone from './EnterPhone';
 import Noth from './Noth';
